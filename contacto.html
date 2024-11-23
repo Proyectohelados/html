@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-image: url(https://i.pinimg.com/736x/97/b8/88/97b888ff087555f9467b1ad9cd0c994a.jpg);
+            }
+        </style>
+        <meta charset="utf-8">
+        <title>Contacto</title>
+    </head>
+    <body>
+      <h1>
+        <strong>FORMULARIO DE PEDIDO</strong>
+      </h1> 
+      <h2>DATOS PERSONALES</h2>
+      <form action="/submit_form"method="post">
+        <label form="name">Nombre:</label>
+        <input type="text id"="name"name="name"placeholder="Introduce tu nombre"required><br><br>
+        <label form="message">Comentario:</label>
+        <textarea id="message"name="message"placeholder="Escribe tu Comentario"required></textarea><br><br>
+        <label form="direction">Direccion:</label>
+        <input type="direction"="direction"name="direction"placeholder="Introduce tu direccion aqui"required><br><br>
+        <label>Sabor de helado:</label><br>
+        <select name="Color de Tinte">
+            <option>Fresa</option>
+            <option>Vainilla</option>
+            <option>Chocolate</option>
+            <option>Menta</option>
+            <option>Chicle</option>
+            <option>Banana</option>
+        </select>
+        <br><br>
+        <p>
+            Envase:<input type="radio"name="tamaño"value="p"/>Cono<input type="radio" name="tamaño"value="g"/>Vaso 
+            <input type="radio"name="tamaño"value="x"/>Paleta
+        </p>
+        <br>
+        <p><input type="checkbox"name="info"checked="checked"/>Deseo recibir informacion sobre novedades</p>
+        <p><input type="checkbox"name="condiciones"checked="checked"/>Acepto todas las condiciones</p>
+        <input type="submit"value="Enviar"><br><BR>
+    </form> 
+        <a href="index.html"><input type="submit"value="INICIO"></a>
+        </body>
+</html>
